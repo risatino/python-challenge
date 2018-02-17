@@ -2,7 +2,7 @@
 import os
 import csv
 
-# Try another dependency
+# Try another dependency I learned about from a co-worker http://effbot.org/librarybook/sys.htm 
 import sys
 
 # Paths

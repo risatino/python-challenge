@@ -16,7 +16,7 @@ with open(file_one, 'r') as txtfile:
     # finding word count
     word_count = paragraph.count(" ") + 1 # +1 to account for the last word
 
-    # finding sentence count
+    # finding sentence count anything that has ".", "!", "?" (ends of sentences)
     sentence_count = paragraph.count(".") + paragraph.count("!") + paragraph.count("?")
 
     # finding average letter count

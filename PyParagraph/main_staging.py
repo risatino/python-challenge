@@ -19,7 +19,7 @@ with open(file_one, 'r') as txtfile:
     # finding sentence count anything that has ".", "!", "?" (ends of sentences)
     sentence_count = paragraph.count(".") + paragraph.count("!") + paragraph.count("?")
 
-    # finding average letter count
+    # finding average letter count and use .isalpha()
     for character in paragraph:
         if character.isalpha():
             letter_count += 1 # counting how many characters are letters
